@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+html, body, #root {
+  height: 100%;
+}
+
+.input-style {
+  @apply px-4 py-2 rounded-full border border-[#F97316] outline-none bg-white;
+}
+
+.label-style {
+  @apply block text-sm text-[#F97316] mb-3 font-medium;
+}
+
+.btn-primary {
+  @apply bg-[#F97316] text-white px-10 py-4 rounded-full hover:bg-orange-600 transition;
+}
