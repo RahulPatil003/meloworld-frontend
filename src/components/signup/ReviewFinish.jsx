@@ -108,7 +108,7 @@ export default function ReviewFinish({
       {/* Buttons */}
       <div className="flex justify-between pt-6">
         <button onClick={back} className="text-gray-500">
-          ← Back
+          ← back
         </button>
 
         <button onClick={submit} className="btn-primary">

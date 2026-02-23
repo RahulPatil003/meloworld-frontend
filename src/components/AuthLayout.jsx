@@ -8,17 +8,17 @@ const AuthLayout = ({ children }) => {
       {/* LEFT SIDE */}
       <div className="w-1/2 bg-[#F4F4F4] flex items-center justify-center">
 
-        <div className="w-full max-w-[480px] px-10">
+        <div className="w-full max-w-[480px] px-6">
 
           {/* Logo */}
           <img
             src={logo}
             alt="NEXR Logo"
-            className="w-10 h-auto mb-6 object-contain"
+            className="w-14 h-auto mb-2 object-contain"
           />
 
           {/* Main Heading */}
-          <h1 className="text-[40px] font-semibold text-[#FF7A00] mb-6 leading-tight">
+          <h1 className="text-[40px] font-semibold text-[#FF7A00] mb-4 leading-tight">
             Welcome to NEXR
           </h1>
 

@@ -4,7 +4,7 @@ import BasicDetails from "./BasicDetails";
 import OrganisationDetails from "./OrganisationDetails";
 import UploadMedical from "./UploadMedical";
 import ReviewFinish from "./ReviewFinish";
-import SuccessModal from "./SuccessModal";
+import SuccessModal from "../SuccessModal";
 
 export default function MultiStepForm() {
   const [step, setStep] = useState(1);
